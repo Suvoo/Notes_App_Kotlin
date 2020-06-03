@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+     <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/background_layout"
+       android:layout_margin="10pt"
+       android:orientation="vertical">
+
+      <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="30sp" />
+
+      <TextView
+        android:id="@+id/tvDes"
+        android:padding="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="djgchbdsyvchjsdcuihvsdcbiudcjhbmdkcbikldanhvkdsjbvujdkufhyivkjddvuvbksdjvubcvyusdcj"
+        android:textSize="18sp" />
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+          <ImageView
+              android:id="@+id/ivDelete"
+              android:layout_margin="5pt"
+              android:layout_width="20pt"
+              android:layout_height="20pt"
+              android:layout_weight="1"
+              app:srcCompat="@drawable/dele" />
+
+          <Space
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1" />
+
+          <ImageView
+              android:id="@+id/ivEdit"
+              android:layout_width="20pt"
+              android:layout_height="20pt"
+              android:layout_margin="5pt"
+              android:layout_weight="1"
+              app:srcCompat="@drawable/edeit" />
+      </LinearLayout>
+     </LinearLayout>
+</LinearLayout>
